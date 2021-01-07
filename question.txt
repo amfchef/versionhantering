@@ -1,0 +1,31 @@
+1. Vad menas med versionshantering?
+	Det menas att man kan gå tillbaka till olika versioner av sin kod, och se tidigare ändringar.
+	Man kan även se vem som har gjort ändringar, så man kan fråga den personen, hur han/hon tänkte.
+2. Vad menas med en “merge” ?
+	Merge betyder att man kopplar ihop en utgrening av historiken från git repot.
+3. Om du vill merga ihop två brancher från terminalen, hur gör du då?
+git checkout -b "branch_name" //skapar och går in i ny branchen, skriv utan ""
+#Gör ändringarna
+git checkout master //ändra branch till master
+git merge "branch_name" //mergar in till master branchen, skriv utan "".
+git merge //mergar din ändringar från den andra branchen till detta "pathen" så se till att du står i rätt path.
+	4. Nämn ett alternativ till Git.
+Phabricator
+SourceForge
+BitBucket
+	5. Är Git ett verktyg som erbjuds av Github, eller kan man använda Git på andra ställen?
+Git är ett verktyg. Github är en tjänst, som använder sig av verktyget Git.
+	6. Vad menas med en “merge conflict” och när kan det uppstå?
+Då man får en "merge conflict" kan uppstå när man mergar ihop olika brancher, då olika commits är gjorde som gör att de krockar.
+	7. Om du vill se en lista med tidigare ändringar / commits i ett Git repo via terminalen, vad skriver du?
+git log
+	8. När du skriver “git init” i en mapp, på vilket sätt ändras då mappen?
+En map som heter .git skapas, där kommer Git lägga till vissa grejer, som gör det möjligt att lägga upp program filer till ett repo.
+	9. Varför vill man dela ibland upp sina ändringar i separata “brancher”?
+Det är bra att göra, om flera personer arbetar på samma project, så vill man inte att de ska krasha ihop sig.
+Det är även bra att låta "master" branchen godkänna ändringarna innan ändringarna publiceras till projectet.
+	10. Nämn ett Git command som inte gör några förändringar på remote servern (Github är tex en remote server), 
+	Nämn även ett Git command som gör förändringar på remote servern.
+git status //gör inga ändringar på remote servern
+git add //gör inga ändringar på servern
+
