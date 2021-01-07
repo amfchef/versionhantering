@@ -1,0 +1,14 @@
+•	Vad är fördelen med att använda sig av pull requests när man arbetar i ett team av systemutvecklare? 
+Fördelarna är pull request är att om man arbetar med flera utvecklare så är det lätt att se vilka ändringar som utvecklarna gör, därav kan man se vem som är ansvarig för dessa. 
+Vanligtvis brukar man ha en master branch som godkänner ändringarna från de andra brancherna, för att sedan lägga ihop den till main filen.
+master branchen kan antingen godkänna eller rejecta ändringarna. Det är också bra för att kunna gå tillbaka till olika versioner av projectet,
+för att om man får ett bugg som man upptäcker vid ett senare tillfälle. Kan man gå tillbaka till den gången som man vet att den fungerade, och se hur koded var då.
+
+•	Varför är det viktigt att använda sig av versionshantering? Vad var fördelarna i förhållande till inlämningsuppgiften? 
+	Vad är fördelarna med versionshantering och Git mer generellt sett?
+Det är väldigt mycket säkrare att arbeta med versionhantering, när man arbetar i ett team av utvecklare, att man har en chef som är ansvarig
+och godkänner diverse ändringar som utvecklarna gör.
+Man kan väldigt lätt backa tillbaka till en annan version av projectet för se hur den var då, det kanske var en funktion som fungerade då, och inte i nuläget.
+Om man ser på vilka övningar vi har gjort inom inlämmningen, så är det bra att se hur allt det här hänger ihop, när någon utvecklare gör en ändring, så godkänner en ansvarig ändringarna.
+Det viktigaste och generella fördelen är att flera utvecklare kan arbeta med samma project och samma program, så att koder eller dylikt
+int krockar eller buggar. Och man kan gå tillbaka i historiken för att se hur projectet var då.
